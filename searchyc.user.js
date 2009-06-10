@@ -36,7 +36,6 @@ function letsJQuery() {
 		var query = $("#searchyc").val();
 		var url = 'http://searchyc.com/' + query;
 		document.location.href = url;
-		alert('submitted');
 		return false;
 	});
 }
